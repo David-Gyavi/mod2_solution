@@ -4,9 +4,38 @@ style.css
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  font-family: "Oswald", sans-serif;
-  font-size: 13px;
-  background: #f9f9f9;
+h1 
+{
+  text-align: center;
+  margin-bottom: 15px;
+}
+div#container 
+{
+  position: relative;
+  top: 60px;
+  display: inline-flex;
+  margin-left: 10%;
+  padding: 15px;
+}
+p 
+{
+  width: 50px;
+  border: 2px solid black;
+  margin-top: 15px;
+}
+#Chicken
+{
+width: 300px;
+background-color: gray;
+position: relative;
+}
+#Beef
+{
+background-color: gray;
+width: 300px;
+}
+#Sushi
+{
+background-color: gray;
+width: 300px;
 }
